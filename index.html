@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="container">
+    <section>
+  <div class="form-container">
+    <h1 class="form_header">Create an Account</h1>
+    <form>
+      <div class="form-row">
+        <div class="form-group form_text">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" class="input_date">
+        </div>
+        <div class="form-group form_text">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" class="input_date">
+        </div>
+      </div>
+      <div class="form-group form_text">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" class="input_email">
+        <p class="note">We'll never share your email with anyone else.</p>
+      </div>
+
+      <div class="form-group gender form_text">
+        <div>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group form_text">
+          <label for="country">Country</label>
+          <select id="country" class="select_group" class="form_text">
+            <option value="" disabled selected>Select</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+          </select>
+        </div>
+        <div class="form-group form_text">
+          <label for="city">City</label>
+          <input type="text" id="city" class="input_date">
+        </div>
+      </div>
+
+
+
+      <button type="submit" class="btn btn-signup">Sign Up</button>
+      <p class="terms border">
+        By clicking the 'Sign Up' button, you confirm that you accept our 
+        <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+      </p>
+    </form>
+    <p class="login">
+      Have an account? <a href="#">Log In</a>
+    </p>
+  </div>
+</section>
+
+
+
+
+
+</section>
+<section>
+<div class="form-section">
+  <h2 class="form_header">Profile</h2>
+  <form id="profile-form">
+    <div class="container_form2 ">
+    <div class="profile-picture">
+      <img src="./img/7. Userpic/📷 Image.svg" alt="Profile Picture">
+    </div>
+
+
+<div class="upload-photo">
+    <label for="upload-photo" class="upload-label">
+    <img src="./img/7. Userpic/1. Buttons/1. Small/4. Icons/1. Buttons/1. Small/4. Icons/1. Buttons/1. Small/4. Icons/Photo Camera.svg" alt="">
+   
+    <input type="file" id="upload-photo" class="file-name" hidden>
+  </label>
+   
+<p class="note_1">Up to 1 MB (300x300 px)</p>
+</div>
+
+
+    <div class="delete-box">
+        <button class="delete-button">
+          <img src="./img/7. Userpic/1. Buttons/1. Small/4. Icons/1. Buttons/1. Small/4. Icons/Trash.svg" class="icon" width="16px" height="16px">
+        </button>
+      </div>
+    </div>
+    
+    
+
+    
+      <div class="form-row">
+    <div class="form-group form_text">
+      <label for="first-name">Name</label>
+      <input type="text" id="profile-name" class="input_date">
+    </div>
+    <div class="form-group form_text">
+      <label for="profile-email">E-mail</label>
+      <input type="email" id="profile-email" class="input_date">
+    </div>
+</div>
+
+
+<div class="form-row">
+    <div class="form-group form_text">
+      <label for="country">Country</label>
+      <select id="country" class="select_group" class="form_text">
+        <option value="" disabled selected>Select</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select>
+    </div>
+    <div class="form-group form_text">
+      <label for="city">City</label>
+      <input type="text" id="city" class="input_date">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group form_text">
+      <label for="zip-code">Zip Code</label>
+      <input type="text" id="zip-code" class="input_date">
+    </div>
+    <div class="form-group form_text">
+      <label for="phone-number">Phone Number</label>
+      <input type="text" id="phone-number" class="input_date">
+    </div>
+    
+  </form>
+</div>
+
+<button type="submit" class="btn btn-update">Update</button>
+
+</div>
+</div>
+</section>
+
+</body>
+</html>

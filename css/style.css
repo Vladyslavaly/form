@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    
+    padding-left: 36px;
+    padding-right: 34px;
+    padding-top: 35px;
+    padding-bottom: 16px;
+  
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 570px;
+    height: 590px;
+  }
+  .container_form2 {
+    display: flex;
+    align-items: center;
+   
+  }
+
+
+
+  .form-section {
+    background-color: #fff;
+    
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 104px;
+  
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 570px;
+    height: 590px;
+  }
+
+
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  
+  
+.form_header {
+    font-style: 24px;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.form_text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #545454;
+   
+}
+
+
+
+
+
+
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+   
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    flex: 1;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 7px;
+  }
+  
+
+
+
+
+
+.input_date {
+    width: 245px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.input_email {
+    width: 500px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+   
+}
+.btn-signup {
+    width: 500px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+}
+.btn-update  {
+    width: 150px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.delete-button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+    align-items: center;
+    background-color: #fff;
+    
+}
+
+
+
+
+.select_group {
+    width: 245px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+}
+ 
+  
+  input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .note {
+    font-size: 13px;
+    color: #969696;
+  }
+.note_1 {
+    font-size: 13px;
+    color: #969696;
+    margin: 0;
+}
+.file-name {
+    font-size: 13px;
+    color: #969696;
+}
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+
+  .terms {
+    font-size: 13px;
+    color: #969696;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+   .gender {
+    display: flex;
+    gap: 20px;
+  } 
+  
+  .gender div {
+    display: flex;
+    align-items: start;
+  }
+  
+  .gender input {
+    margin-right: 8px;
+  }
+  
+
+
+
+
+  .icon {
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+
+
+
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .terms a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  
+  .login {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #545454;
+  }
+  
+  .login a {
+    color: #007bff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .login a:hover {
+    text-decoration: underline;
+  } 
+
+
+
+.border {
+    border-bottom: 1px solid gray;
+   padding-bottom:20px;
+}
+
+
+
+  .upload-label {
+    display: flex;
+   justify-content: end;
+    align-items: center;
+    width: 138px; 
+    height: 30px; 
+   
+   
+    gap: 8px;
+    cursor: pointer; 
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    
+  }
+  
+
+.upload-photo {
+    margin-left: 20px;
+    margin-bottom: 25px;;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #969696;
+  
+}
+.delete-box {
+    margin-bottom: 47px;
+}
+
+
+
+
+
+
+
+
+
+
+  .upload-label:hover {
+    border-color: #007bff; 
+  }
+  
+  .upload-icon {
+  
+    width: 50px; 
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  
+
+  
+  
