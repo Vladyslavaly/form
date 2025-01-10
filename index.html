@@ -32,30 +32,35 @@
       </div>
 
       <div class="form-group gender form_text">
-        <div>
-          <input type="radio" id="male" name="gender" value="male">
-          <label for="male">Male</label>
-        </div>
-        <div>
-          <input type="radio" id="female" name="gender" value="female">
-          <label for="female">Female</label>
-        </div>
+        <div class="gender__item">
+          <label>
+              Women
+              <input type="radio" name="gender">
+              <span class="gender__check"></span>
+          </label>
+          <label>
+              Men
+              <input type="radio" name="gender">
+              <span class="gender__check"></span>
+          </label>
+      </div>
       </div>
 
 
-      <div class="form-row">
-        <div class="form-group form_text">
-          <label for="country">Country</label>
-          <select id="country" class="select_group" class="form_text">
-            <option value="" disabled selected>Select</option>
-            <option value="usa">USA</option>
-            <option value="uk">UK</option>
-          </select>
-        </div>
-        <div class="form-group form_text">
-          <label for="city">City</label>
-          <input type="text" id="city" class="input_date">
-        </div>
+
+
+      <div class="form-group form_text select-wrapper">
+        <label for="city">Country</label>
+        <select id="city" class="select_group custom-select">
+          <option value="" disabled selected>Select</option>
+          <option value="newyork">New York</option>
+          <option value="london">London</option>
+          <option value="tokyo">Tokyo</option>
+        </select>
+        <span class="custom-arrow">
+          <span class="arrow-up"></span>
+          <span class="arrow-down"></span>
+        </span>
       </div>
 
 
@@ -121,14 +126,19 @@
 
 
 <div class="form-row">
-    <div class="form-group form_text">
-      <label for="country">Country</label>
-      <select id="country" class="select_group" class="form_text">
-        <option value="" disabled selected>Select</option>
-        <option value="usa">USA</option>
-        <option value="uk">UK</option>
-      </select>
-    </div>
+  <div class="form-group form_text select-wrapper">
+    <label for="city">Country</label>
+    <select id="city" class="select_group custom-select">
+      <option value="" disabled selected>Select</option>
+      <option value="newyork">New York</option>
+      <option value="london">London</option>
+      <option value="tokyo">Tokyo</option>
+    </select>
+    <span class="custom-arrow">
+      <span class="arrow-up"></span>
+      <span class="arrow-down"></span>
+    </span>
+  </div>
     <div class="form-group form_text">
       <label for="city">City</label>
       <input type="text" id="city" class="input_date">
